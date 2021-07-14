@@ -25,6 +25,11 @@ function StoryReel() {
         profileSrc="https://cdn.pixabay.com/photo/2015/11/03/18/37/turkish-coffee-1021286_960_720.jpg"
         title="Coffe Maker"
       />
+      <Story
+        image="https://cdn.pixabay.com/photo/2021/07/11/19/07/girl-6404712_960_720.jpg"
+        profileSrc="https://cdn.pixabay.com/photo/2015/07/09/00/29/woman-837156_960_720.jpg"
+        title="Coffe Maker"
+      />
       {/* Story */}
       {/* Story */}
       {/* Story */}
