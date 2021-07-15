@@ -8,14 +8,13 @@ import PeopleIcon from "@material-ui/icons/People";
 import StorefrontIcon from "@material-ui/icons/Storefront";
 import VideoLibraryIcon from "@material-ui/icons/VideoLibrary";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import { useStateValue } from "./StateProvider";
 
 function Sidebar() {
+  const [{ user }, dispatch] = useStateValue();
   return (
     <div className="sidebar">
-      <SidebarRow
-        src="https://bitbucket.tracom.co.ke/users/valentine%20wabwire/avatar.png?s=192&v=1594977692000"
-        title="Barack Obama"
-      />
+      <SidebarRow src={user.photoURL} title={user.displayName} />
       <SidebarRow
         Icon={LocalHospitalIcon}
         title="COVID 19 Information center"

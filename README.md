@@ -9,6 +9,14 @@
 7. Firebase google authentication (FULL LOGIN)
 8. React flip move
 
+# [Live DEMO](https://facebook-clone-5e6a8.web.app/).
+
+# SNAPSHOTS
+
+![image](https://user-images.githubusercontent.com/53892988/125820136-564eff68-bb0e-44ab-9990-2d56fe58815b.png)
+
+![image](https://user-images.githubusercontent.com/53892988/125820386-35e3e4d8-db36-4d8f-a631-443de2034305.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

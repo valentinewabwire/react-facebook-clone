@@ -7,15 +7,17 @@ import SubscriptionsIcon from "@material-ui/icons/Subscriptions";
 import StorefrontIcon from "@material-ui/icons/Storefront";
 import SupervisedUserCircleIcon from "@material-ui/icons/SupervisedUserCircle";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
-import { IconButton } from "@material-ui/core";
+import { Avatar, IconButton } from "@material-ui/core";
 import {
   AddCircleOutline,
   ExpandMore,
   ForumOutlined,
   NotificationsActive,
 } from "@material-ui/icons";
+import { useStateValue } from "./StateProvider";
 
 function Header() {
+  const [{ user }, dispatch] = useStateValue();
   return (
     <div className="header">
       <div className="header__left">
@@ -47,8 +49,8 @@ function Header() {
       </div>
       <div className="header__right">
         <div className="header__info">
-          <AccountCircleIcon />
-          <h4>Master Shifu</h4>
+          <Avatar src={user.photoURL} />
+          <h4>{user.displayName}</h4>
         </div>
         <IconButton>
           <AddCircleOutline />
