@@ -1,13 +1,24 @@
-# TECH that will be used in this facebook clone
+# Facebook Clone React App
 
-1. React + React HOOKS
-2. React context API -> REDUX pattern
-3. Material UI
-4. Flexbox
-5. Firebase firestore DB
-6. Firebase Hosting(URL hosting)
-7. Firebase google authentication (FULL LOGIN)
-8. React flip move
+This repository contains a React app that is a clone of the popular social media platform, Facebook. It uses a variety of technologies to build the app, including the React library and React Hooks, the React Context API (for data management), the Redux pattern, Material UI, Flexbox, Firebase Firestore DB (for data storage), Firebase Hosting (for URL hosting), Firebase Google Authentication (for full login capabilities), and React Flip Move (for smooth animation).
+
+## Installation
+
+To install the app, clone the repository and install the necessary dependencies:
+
+### git clone https://github.com/[username]/facebookclone-reactapp.git
+### cd facebookclone-reactapp
+### npm install
+
+## Usage
+
+To run the app, use the following command:
+
+### npm start
+
+
+
+
 
 # [Live DEMO](https://facebook-clone-5e6a8.web.app/).
 
