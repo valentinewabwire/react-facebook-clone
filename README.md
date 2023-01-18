@@ -6,15 +6,15 @@ This repository contains a React app that is a clone of the popular social media
 
 To install the app, clone the repository and install the necessary dependencies:
 
-### git clone https://github.com/[username]/facebookclone-reactapp.git
+### `git clone https://github.com/valentinewabwire/react-facebook-clone.git
 ### cd facebookclone-reactapp
-### npm install
+### npm install`
 
 ## Usage
 
 To run the app, use the following command:
 
-### npm start
+### `npm start`
 
 
 
