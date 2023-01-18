@@ -16,9 +16,9 @@ npm install
 
 To run the app, use the following command:
 
-### `npm start`
-
-
+```
+npm start
+```
 
 
 
